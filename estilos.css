@@ -1,0 +1,146 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.geral {
+	background-color: #F5FFFA;
+
+}
+.cabecalho {
+	background-color: #008080;
+	color: #fff;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	user-select: none;
+	box-shadow: 0px 1px 1px #888;
+}
+.logo {
+	margin: 10px 20px;
+	text-transform: uppercase;
+	font-family: verdana;
+	letter-spacing: 10px;
+	font-weight: bolder;
+	display: flex;
+	align-items: center;
+	padding: 0px 0px 0px 8px;
+	font-size: 15pt;
+	text-shadow: 1px 1px 1px #000;
+	box-shadow: 0px 0px 3px #000;
+	border-radius: 2px;
+	border: 1px solid;
+}
+.navegacao {
+	display: flex;
+}
+.menu {
+	display: flex;
+}
+.pagina, .pagina-atual {
+	margin-right: 10px;
+	display: flex;
+	padding: 5px;
+	width: 70px;
+	justify-content: center;
+	font-family: arial narrow;
+}
+.pagina-atual {
+	cursor: pointer;
+	box-shadow: 1px 1px 3px #333;
+}
+.pagina:hover {
+	cursor: pointer;
+	box-shadow: 1px 1px 3px #333;
+}
+.corpo {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	font-family: arial;
+}
+
+.principal, .secundaria {
+	background-color: #B0E0E6;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5px;
+	box-shadow: 1px 1px 3px #aaa;
+	text-align: center;
+
+}
+.principal {
+	width: 80%; 
+}
+.secundaria {
+	width: 20%;
+	margin-left: 20px;
+}
+.secundaria {
+	max-height: 200px;
+}
+.titulo-redes, .destaques {
+	padding: 7px;
+	font-weight: bolder;
+	color: #617D89;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+.destaque {
+	width: 200px;
+	height: 350px;
+	background-color: #eee;
+	margin: 7px;
+
+	align-items: center;
+	display: flex;
+
+}
+.destaquess {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.redes {
+	display: flex;
+}
+.rede {
+	display: flex;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	justify-content: center;
+	margin: 0px;
+}
+.rede img {
+	width: 30px; 
+	height: 30px;
+	display: flex;
+}
+footer {
+	background-color: #008080;
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	font-family: arial narrow;
+	font-size: 10pt;
+	justify-content: space-around;
+	padding: 10px;
+}
+.footer {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+
+}
+.rodape {
+	justify-content: center;
+	height: 100%;
+	text-align: center;
+}

@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.todos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.botoes {
+    display: flex;
+    margin: 15px;
+}
+.botao-1, .botao-2, .botao-3 {
+    width: 90px;
+    height: 30px;
+    font-size: 9pt;
+    font-weight: bolder;
+}
+.botao-1 {
+    display: flex;
+    background-color: #03DAC6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px #777;
+    font-weight: bolder;
+    font-size: 9pt;
+    color: #333;
+    text-shadow: 0px 0,5px 0,5px #555;
+    color: #fff;
+}
+.botao-1:hover {
+    box-shadow: 0px 1px 3px #aaa;
+    background-color: #7de9de;
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+.botao-2:hover {
+    box-shadow: 0px 0px 1px #aaa;
+    background-color: rgba(25, 172, 240, 0.075);
+    color: rgba(2, 72, 105, 0.726);
+    cursor: pointer;
+}
+.botao-3:hover {
+    box-shadow: 0px 1px 1px #999;
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.658);
+    cursor: pointer;
+}
+.botao-2 {
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px rgb(4, 123, 179);;
+    font-size: 8pt;
+    color: rgba(2, 72, 105, 0.726);
+    width: 80px;
+    height: 25px
+}
+.botao-3 {
+    background-color: rgb(253, 28, 28);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 7pt;
+    letter-spacing: 1px;
+    width: 80px;
+    height: 25px;
+    box-shadow: 0px 1px 1px #777;
+}
+.dados {
+    margin: 20px;
+    margin-bottom: 0px;
+}
+label {
+    font-size: 8pt; 
+}
+input {
+    width: 250px;
+    height: 20px;
+    border: 1px solid #ddd;
+    font-size: 7pt;
+    border-radius: 2px;
+}
+.nome {
+    width: 200px;
+    padding-right: 2px;
+}
+.telefone {
+    width: 100px;
+}
+.e-mail {
+    width: 310px;
+}
+.todo {
+    box-shadow: 0px 1px 2px #999;
+    margin: 25px;
+    width: 350px;
+    border-radius: 3px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    font-size: 10pt;
+    text-align: center;
+    padding-top: 10px;
+}
+.formulario-1 {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+
+.soma, .subtracao {
+    background-color: #fff;
+    border-radius: 2px;
+    border: none;
+}
+.soma:hover, .subtracao:hover {
+    background-color: #eee;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/estilos.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="corpo">
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+
+            <form name="formulario" action="teste" method="dialog">
+                <div class="area-calculo">
+                    <input class="campo1" name="campo1" type="text" placeholder="1º número">
+                    <input class="campo2" name="campo2" type="text" placeholder="2º número"> <br>
+                </div>
+                <div class="botoes">  
+                    <div class="adicao-subtracao">
+                        <button id="somar" onclick="calcular()">+</button>
+                        <button id="subtrair" onclick="subtrair()">-</button>
+                    </div>
+                    <div class="multiplicacao-divisao">
+                        <button id="multiplicar" onclick="multiplicar()">x</button>
+                        <button id="dividir" onclick="dividir()">/</button>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <div class="resultado">Resultado</div>
+                    <input class="total" name="valorTotal" type="text" value="0" disabled>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="_js/index.js"></script>
+</body>
+</html>
